@@ -1,0 +1,35 @@
+.VendingMachine {
+  padding: 50px;
+  background-color: lightgray;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.VendingMachine-title {
+  color: black;
+  font-size: 40px;
+}
+
+.VendingMachine-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.VendingMachine-link {
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.VendingMachine-link:hover {
+  color: unset;
+}
